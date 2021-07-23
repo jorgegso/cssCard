@@ -134,11 +134,8 @@ p {
 
   }
 
-  .img_movil {
-  }
-
   .card {
-    margin:0 7vw;
+    margin:7vw;
     display: flex;
     flex-direction: row-reverse;
     overflow: hidden;
@@ -163,11 +160,7 @@ p {
     line-height: 2em;
     letter-spacing: 1px;
   }
-  .box2 {
-    height: 50%;
-    width: 50%;
-  }
-  
+ 
   .contaniner{
     display: flex;
     margin-top: 2.1rem;
