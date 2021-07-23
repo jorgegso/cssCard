@@ -37,7 +37,7 @@ p {
 }
 
 /* movil view */
-@media  (max-width:1164px) {
+@media screen and (max-width:1319px) {
   body {
     text-align: center;
     display: flex;
@@ -66,7 +66,7 @@ p {
     border-radius: 8px;
     margin:1.5rem;
     background: var(--card_background);
-    width: 351px;
+    width: 300px;
   }
 
   .img_movil {
@@ -110,7 +110,7 @@ p {
 
 }
 /* fullscreen */
-@media (min-width:1160px)  {
+@media (min-width:1319px)  {
   p {
     font-size: var(--size-p-fullVW);
     font-weight: 700;
