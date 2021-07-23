@@ -12,12 +12,12 @@ Users should be able to:
 
 ### Screenshot
 
-----------
+![image](https://user-images.githubusercontent.com/63064991/126796217-7e5bb962-8e32-4464-9223-e2cd1c6bf8fc.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://jorgegso.github.io/cssCard/)
 
 ## My process
 
@@ -37,8 +37,6 @@ Use this section to recap over some of your major learnings while working throug
 
 
 ## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Add your name here](https://jorgegso.github.io/portafolioPrincipal/)
 
 
