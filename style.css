@@ -10,11 +10,12 @@
   --Slightly_transparent_white:hsla(0, 0%, 100%, 0.75);
   --size-p:13px;
   --size-h1:1.5em;
+  --size-p-fullVW:13px;
+  --size-h1-fullVW:2.5em;
+  --size-h1-fullVW-small:1.7rem;
   --Slightly_transparent_white:hsla(0, 0%, 100%, 0.6);  
   --font-family:'Inter', sans-serif;
   --font-family2:'Lexend Deca', sans-serif;
-
-
 }
 
 html {
@@ -31,10 +32,18 @@ p {
   font-family: var(--font-family2);
 }
 
+.card_texts p {
+  letter-spacing: .2px;
+}
+
 /* movil view */
-@media (max-width:375px) {
+@media  (max-width:1164px) {
   body {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   img{
@@ -57,6 +66,7 @@ p {
     border-radius: 8px;
     margin:1.5rem;
     background: var(--card_background);
+    width: 351px;
   }
 
   .img_movil {
@@ -65,12 +75,11 @@ p {
   }
 
   .card_texts {
-    padding: 3.1rem;    
+    padding: 3.7rem;    
   }
 
   .card_texts p {
     margin-top: 1rem;
-    letter-spacing: .2px;
   }
 
   .card_texts h1 {
@@ -100,6 +109,89 @@ p {
   }
 
 }
-@media (max-width:1440px) {
+/* fullscreen */
+@media (min-width:1160px)  {
+  p {
+    font-size: var(--size-p-fullVW);
+    font-weight: 700;
+    font-family: var(--font-famil1);
+  }
+
+  h1 {
+    font-size: var(--size-h1-fullVW);
+  }
+
+  body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  img{
+    opacity: .4;
+    background: var(--Soft_violet);
+
+  }
+
+  .img_movil {
+  }
+
+  .card {
+    margin:0 7vw;
+    display: flex;
+    flex-direction: row-reverse;
+    overflow: hidden;
+    border-radius: 8px;
+    background: var(--card_background);
+  }
+
+  .img_movil {
+    background: var(--Soft_violet);
+  }
+
+  .card_texts {
+    text-align: left;
+    padding: 1rem;
+  }
+
+  .box1 {
+    margin: auto;
+    
+  }
+  .box1 p {
+    line-height: 2em;
+    letter-spacing: 1px;
+  }
+  .box2 {
+    height: 50%;
+    width: 50%;
+  }
+  
+  .contaniner{
+    display: flex;
+    margin-top: 2.1rem;
+  }
+
+  .contaniner h1{
+    margin:0;
+    margin-bottom:.3rem;
+    font-size: var(--size-h1-fullVW-small);
+  }
+
+  .contaniner p{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .contaniner_item{
+    margin-right: 5rem;
+  }
+  
+  .card_texts_content{
+    width: 431px;
+  }
+  .card_texts--title-color{
+    color:var(--Soft_violet);
+  }
 
 }
